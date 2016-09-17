@@ -1,0 +1,6 @@
+
+// Exclude built bundle
+/dist/js
+
+// Modules
+/node_modules/
