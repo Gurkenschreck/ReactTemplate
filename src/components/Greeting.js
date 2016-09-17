@@ -1,6 +1,7 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
-class Greeting extends React.Component {
+export class Greeting extends React.Component {
     render(){
         return(
             <div>
@@ -10,4 +11,14 @@ class Greeting extends React.Component {
     }
 }
 
-export default Greeting;
+const mapStateToProps = (state) => ({
+
+});
+
+const mapDispatchToProps = (dispatch) => ({
+
+});
+
+const ConnectedGreeting = connect(mapStateToProps, mapDispatchToProps)(Greeting);
+
+export default ConnectedGreeting;
