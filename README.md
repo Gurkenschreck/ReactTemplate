@@ -1,5 +1,6 @@
 # ReactTemplate
-A react project template
+A react project template to bootstrap new projects. You can find all included packages in the Dependencies section of this Readme.
+
 
 ### Dependencies
 
