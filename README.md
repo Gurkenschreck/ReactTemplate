@@ -44,10 +44,10 @@ npm install --save react react-dom react-router redux react-redux redux-thunk
 * [React-Redux](https://github.com/reactjs/react-redux)
 * [React-Router](https://github.com/ReactTraining/react-router)
 * [Redux](https://github.com/reactjs/redux)
+* [Redux-Thunk](https://github.com/gaearon/redux-thunk)
 * [Mocha](https://github.com/mochajs/mocha)
 * [Enzyme](https://github.com/airbnb/enzyme)
 * [Expect](https://github.com/mjackson/expect)
-
 * [Webpack](https://github.com/webpack/webpack)
 * [Babel](https://github.com/babel/babel)
 
