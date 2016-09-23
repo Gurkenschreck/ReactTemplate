@@ -29,10 +29,11 @@ And the following project dependencies:
 * react-router
 * redux
 * react-redux
+* redux-thunk
 
 Added via:
 ```
-npm install --save react react-dom react-router redux react-redux
+npm install --save react react-dom react-router redux react-redux redux-thunk
 ```
 
 ### Sources / References / Help
