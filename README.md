@@ -51,6 +51,9 @@ npm install --save react react-dom react-router redux react-redux redux-thunk
 * [Webpack](https://github.com/webpack/webpack)
 * [Babel](https://github.com/babel/babel)
 
+#### npm
+
+* [babel-preset-stage-2](https://www.npmjs.com/package/babel-preset-stage-2)
 
 #### Helpful
 
