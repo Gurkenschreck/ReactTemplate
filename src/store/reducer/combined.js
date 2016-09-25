@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 
 // Import custom reducers
-import settings from './settings';
+import settings from './settingsReducer';
 
 const combinedReducer = combineReducers({
-    settings: settings
+    settings
 });
 
 export default combinedReducer;

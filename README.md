@@ -20,7 +20,7 @@ This template uses the following development dependencies:
 
 Added via:
 ```
-npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect
+npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node
 ```
 
 And the following project dependencies:
@@ -50,6 +50,7 @@ npm install --save react react-dom react-router redux react-redux redux-thunk
 * [Expect](https://github.com/mjackson/expect)
 * [Webpack](https://github.com/webpack/webpack)
 * [Babel](https://github.com/babel/babel)
+* [Deep-Freeze-Node](https://github.com/AnatoliyGatt/deep-freeze-node)
 
 #### npm
 

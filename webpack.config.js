@@ -23,6 +23,7 @@ module.exports = {
 			}
 		]
 	},
+	devtool: 'source-map',
 	devServer: {
 		contentBase: DIST_DIR,
 		inline: true,
