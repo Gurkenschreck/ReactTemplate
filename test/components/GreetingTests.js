@@ -2,7 +2,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import expect from 'expect';
 
-import GreetingConnected, {Greeting} from './../../src/components/Greeting.js';
+import {Greeting} from './../../src/components/Greeting.js';
 
 describe('<Greeting /> component', () => {
 

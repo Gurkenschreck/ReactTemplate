@@ -19,10 +19,11 @@ This template uses the following development dependencies:
 * expect
 * style-loader
 * css-loader
+* nock
 
 Added via:
 ```
-npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node style-loader css-loader
+npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node style-loader css-loader nock
 ```
 
 And the following project dependencies:
@@ -53,6 +54,10 @@ npm install --save react react-dom react-router redux react-redux redux-thunk
 * [Webpack](https://github.com/webpack/webpack)
 * [Babel](https://github.com/babel/babel)
 * [Deep-Freeze-Node](https://github.com/AnatoliyGatt/deep-freeze-node)
+* [Style-Loader](https://github.com/webpack/css-loader)
+* [Css-Loader](https://github.com/webpack/css-loader)
+* [Nock](https://github.com/node-nock/nock)
+* [Redux-mock-store](https://github.com/arnaudbenard/redux-mock-store)
 
 #### npm
 
