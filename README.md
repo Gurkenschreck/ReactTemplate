@@ -20,10 +20,11 @@ This template uses the following development dependencies:
 * style-loader
 * css-loader
 * nock
+* redux-mock-store
 
 Added via:
 ```
-npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node style-loader css-loader nock
+npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node style-loader css-loader nock redux-mock-store
 ```
 
 And the following project dependencies:
