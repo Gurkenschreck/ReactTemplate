@@ -1,10 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+if(process.env.BROWSER){
+    require('./Greeting.css');
+}
+
 export class Greeting extends React.Component {
     render(){
         return(
-            <div>
+            <div className="greeting">
                 Hello World!
             </div>
         );

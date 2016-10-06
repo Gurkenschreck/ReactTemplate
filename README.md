@@ -17,10 +17,12 @@ This template uses the following development dependencies:
 * enzyme
 * react-addons-test-utils
 * expect
+* style-loader
+* css-loader
 
 Added via:
 ```
-npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node
+npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node style-loader css-loader
 ```
 
 And the following project dependencies:
