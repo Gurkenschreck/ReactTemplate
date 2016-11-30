@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
     "test:watch": "npm test -- --watch",
-    "start": "webpack-dev-server --hot",
+    "start": "webpack-dev-server --hot --inline",
     "build:dev": "webpack -d --devtool source-map ./src/main.js ./dist/js/bundle.js",
     "dist": "WEBPACK_CONFIG='build' webpack -p"
   },

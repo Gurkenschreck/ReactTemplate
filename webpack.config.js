@@ -26,7 +26,7 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.(js|jsx)?$/,
-				loader: 'babel-loader',
+				loaders: ['react-hot-loader/webpack', 'babel-loader'],
 				exclude: /node_modules/
 			},
             {
@@ -36,13 +36,7 @@ module.exports = {
 		]
 	},
     plugins: [
-        // Set process.env.BROWSER to be able to include stylesheets in components
-        // Example Greeting.js and Greeting.css
-        new webpack.DefinePlugin({
-            "process.env": {
-                BROWSER: JSON.stringify(true)
-            }
-        })
+        new webpack.HotModuleReplacementPlugin()
     ],
 	devtool: 'source-map',
 	devServer: {

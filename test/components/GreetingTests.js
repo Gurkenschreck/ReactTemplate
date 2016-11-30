@@ -8,7 +8,7 @@ describe('<Greeting /> component', () => {
         const enzymeWrapper = shallow(<Greeting />);
         expect(
             enzymeWrapper.find('div').text()
-        ).toEqual('Hello World!');
+        ).toEqual('Hello World!0');
     });
     
 });
