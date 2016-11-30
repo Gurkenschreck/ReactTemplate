@@ -1,5 +1,3 @@
-import expect from 'expect';
-
 import * as actions from './../../../src/store/actions/settingsActions.js';
 
 // If mocking HTTP Requests is needed

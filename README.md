@@ -15,16 +15,18 @@ This template uses the following development dependencies:
 * redux-devtools
 * mocha
 * enzyme
+* jsdom
 * react-addons-test-utils
 * expect
 * style-loader
 * css-loader
 * nock
 * redux-mock-store
+* ignore-styles
 
 Added via:
 ```
-npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme react-dom react-addons-test-utils expect deep-freeze-node style-loader css-loader nock redux-mock-store
+npm install --save-dev webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react redux-devtools mocha enzyme jsdom react-dom react-addons-test-utils expect deep-freeze-node style-loader css-loader nock redux-mock-store ignore-styles
 ```
 
 And the following project dependencies:
@@ -39,6 +41,12 @@ Added via:
 ```
 npm install --save react react-dom react-router redux react-redux redux-thunk
 ```
+
+### Start
+
+1. Clone project
+2. Delete .git and init new repo
+3. change package.json properties
 
 ### Sources / References / Help
 

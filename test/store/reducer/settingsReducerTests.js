@@ -1,4 +1,3 @@
-import expect from 'expect';
 import deepFreeze from 'deep-freeze-node';
 
 import reducer from './../../../src/store/reducer/settingsReducer.js'
